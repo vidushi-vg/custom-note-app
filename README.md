@@ -1,12 +1,22 @@
-# 📝 Custom Note App (Frontend-Only)
+# Update Browserslist DB
 
-A small React app for adding and viewing notes, stored in `localStorage`.
+<img width="120" height="120" alt="Browserslist logo by Anton Popov"
+     src="https://browsersl.ist/logo.svg" align="right">
 
-## 🚀 Getting Started
+CLI tool to update `caniuse-lite` with browsers DB
+from [Browserslist](https://github.com/browserslist/browserslist/) config.
 
-```bash
-npm install
-npm run dev
+Some queries like `last 2 versions` or `>1%` depend on actual data
+from `caniuse-lite`.
 
+```sh
+npx update-browserslist-db@latest
+```
 
-- **Styling**: Used Tailwind CSS for rapid utility-first design, clean spacing, and responsive layout.
+<a href="https://evilmartians.com/?utm_source=update-browserslist-db">
+  <img src="https://evilmartians.com/badges/sponsored-by-evil-martians.svg"
+       alt="Sponsored by Evil Martians" width="236" height="54">
+</a>
+
+## Docs
+Read full docs **[here](https://github.com/browserslist/update-db#readme)**.
